@@ -1,0 +1,144 @@
+/* The Modal (background) */
+.modal {
+    position: fixed; /* Stay in place */
+    z-index: 50; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  .modal2{
+    display: none;
+    position: fixed; /* Stay in place */
+    z-index: 50; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  .myBtn img{
+    width: 17.2em;
+    cursor: pointer;
+    z-index: 50;
+  }
+  .sticky{
+    position: fixed;
+  }
+  .stickyFix{
+    margin-top: 9em;
+  }
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: rgb(41, 41, 41);
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 3em;
+    width: 60%; /* Could be more or less, depending on screen size */
+    border-radius: 15px;
+  }
+  
+  .modal-flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .modal-flex2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+  .modal-flex2 input{
+    font-size: 1vw;
+    width: 100%;
+    height: 2em;
+    margin-bottom: 1em;
+    border: 0;
+    border-bottom: 5px solid black;
+  }
+  .buttons-modal2{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .box-modal-icons{
+    background-color: white;
+    width: 7vw;
+    padding:1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    border-radius: 15px;
+    transition: all 0.2s ease-in-out;
+  }
+  .box-modal-icons p{
+    margin-top: 0.5em;
+  } 
+
+  .box-modal-icons label{
+    margin-top: 0.5em;
+  }
+
+  .modal-flex img{
+      width: 4vw;
+  }
+
+  .box-modal-icons:hover{
+    cursor: pointer;
+    background-color: rgb(175, 175, 175);
+    transform: scale(1.1); 
+  }
+  .custom-file {
+    color: black;
+    cursor: pointer;
+  }
+
+  input[type="file"] {
+    display: none;
+  }
+
+  /* The Close Button */
+  .close-layout {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close-layout:hover,
+  .close-layout:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .titleProjects h2{
+    margin-top: 2em;
+    margin-bottom: 1em;
+    font-size: 2vw;
+    text-align: center;
+  }
+  #projects{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 100%;    
+  }
+  
+  .post i{
+    border-radius: 10px;
+    background-color: white;
+    padding: 0.5em;
+    color: black;
+    margin-top: 0.5em;
+    cursor: pointer;
+  }
+  .post p{
+    margin-bottom: 1em;
+  }

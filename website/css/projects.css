@@ -1,0 +1,45 @@
+﻿.projects{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2em 10% 0;
+
+}
+.card{
+    flex: 1 0 25%;
+    margin: 0.5em 0.5em 2em;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,2.5);
+    transition: 0.3s;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,250);
+}
+.card img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.text {
+    text-align: left;
+    padding: 2em 10% 0;
+    font-size: 1.1em;
+}
+.text h2 {
+    padding-bottom: 1em;
+    font-size: 3.5em;
+}
+
+/* Changes row into column right when the left card touches the sidebar*/
+@media screen and (max-width: 1170px) {
+    .projects {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-content: center;
+    }
+}
+@media screen and (max-width: 800px) {
+    .projects {
+        padding-left: 64px;
+    }
+}
